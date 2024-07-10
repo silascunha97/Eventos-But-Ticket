@@ -24,3 +24,9 @@ Cancelar eventos e reembolsar compradores.
 #### CreateEventoAsync(Evento evento): cria um novo evento
 #### UpdateEventoAsync(Evento evento): atualiza um evento existente
 #### DeleteEventoAsync(int id): exclui um evento
+
+## Implementando a API (Microserviços)
+### Eventos:
+* Crie uma classe EventosService que implementa a interface IEventosService.
+* Implemente os métodos da interface para operações com eventos (CRUD).
+* Utilize um banco de dados (ex: SQL Server) para persistir os dados dos eventos.
