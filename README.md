@@ -1,4 +1,4 @@
-﻿# Eventos-But-Ticket
+﻿# Eventos-Buy-Ticket
  
 ## Funcionalidades do Sistema.
 
