@@ -16,3 +16,11 @@ Cancelar eventos e reembolsar compradores.
 #### Local (string)
 #### Preco (decimal)
 #### IngressosDisponiveis (int)
+
+## Interfaces:
+### IEventosService:
+#### GetEventosAsync(): retorna uma lista de eventos
+#### GetEventoByIdAsync(int id): retorna um evento específico
+#### CreateEventoAsync(Evento evento): cria um novo evento
+#### UpdateEventoAsync(Evento evento): atualiza um evento existente
+#### DeleteEventoAsync(int id): exclui um evento
